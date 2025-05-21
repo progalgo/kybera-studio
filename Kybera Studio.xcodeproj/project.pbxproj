@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		1FDFE7022DDE604600E9E9EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FDFE6E12DDE604200E9E9EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FDFE6E82DDE604200E9E9EB;
+			remoteInfo = "Kybera Studio";
+		};
+		1FDFE70C2DDE604700E9E9EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FDFE6E12DDE604200E9E9EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FDFE6E82DDE604200E9E9EB;
+			remoteInfo = "Kybera Studio";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FDFE6E92DDE604200E9E9EB /* Kybera Studio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kybera Studio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FDFE7012DDE604600E9E9EB /* Kybera StudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kybera StudioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FDFE70B2DDE604700E9E9EB /* Kybera StudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kybera StudioUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1FDFE7132DDE604700E9E9EB /* Exceptions for "Kybera Studio" folder in "Kybera Studio" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1FDFE6E82DDE604200E9E9EB /* Kybera Studio */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1FDFE6EB2DDE604200E9E9EB /* Kybera Studio */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1FDFE7132DDE604700E9E9EB /* Exceptions for "Kybera Studio" folder in "Kybera Studio" target */,
+			);
+			path = "Kybera Studio";
+			sourceTree = "<group>";
+		};
+		1FDFE7042DDE604600E9E9EB /* Kybera StudioTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Kybera StudioTests";
+			sourceTree = "<group>";
+		};
+		1FDFE70E2DDE604700E9E9EB /* Kybera StudioUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Kybera StudioUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FDFE6E62DDE604200E9E9EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FDFE6FE2DDE604600E9E9EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FDFE7082DDE604700E9E9EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FDFE6E02DDE604200E9E9EB = {
+			isa = PBXGroup;
+			children = (
+				1FDFE6EB2DDE604200E9E9EB /* Kybera Studio */,
+				1FDFE7042DDE604600E9E9EB /* Kybera StudioTests */,
+				1FDFE70E2DDE604700E9E9EB /* Kybera StudioUITests */,
+				1FDFE6EA2DDE604200E9E9EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FDFE6EA2DDE604200E9E9EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FDFE6E92DDE604200E9E9EB /* Kybera Studio.app */,
+				1FDFE7012DDE604600E9E9EB /* Kybera StudioTests.xctest */,
+				1FDFE70B2DDE604700E9E9EB /* Kybera StudioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FDFE6E82DDE604200E9E9EB /* Kybera Studio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FDFE7142DDE604700E9E9EB /* Build configuration list for PBXNativeTarget "Kybera Studio" */;
+			buildPhases = (
+				1FDFE6E52DDE604200E9E9EB /* Sources */,
+				1FDFE6E62DDE604200E9E9EB /* Frameworks */,
+				1FDFE6E72DDE604200E9E9EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1FDFE6EB2DDE604200E9E9EB /* Kybera Studio */,
+			);
+			name = "Kybera Studio";
+			packageProductDependencies = (
+			);
+			productName = "Kybera Studio";
+			productReference = 1FDFE6E92DDE604200E9E9EB /* Kybera Studio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FDFE7002DDE604600E9E9EB /* Kybera StudioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FDFE7192DDE604700E9E9EB /* Build configuration list for PBXNativeTarget "Kybera StudioTests" */;
+			buildPhases = (
+				1FDFE6FD2DDE604600E9E9EB /* Sources */,
+				1FDFE6FE2DDE604600E9E9EB /* Frameworks */,
+				1FDFE6FF2DDE604600E9E9EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FDFE7032DDE604600E9E9EB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1FDFE7042DDE604600E9E9EB /* Kybera StudioTests */,
+			);
+			name = "Kybera StudioTests";
+			packageProductDependencies = (
+			);
+			productName = "Kybera StudioTests";
+			productReference = 1FDFE7012DDE604600E9E9EB /* Kybera StudioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FDFE70A2DDE604700E9E9EB /* Kybera StudioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FDFE71C2DDE604700E9E9EB /* Build configuration list for PBXNativeTarget "Kybera StudioUITests" */;
+			buildPhases = (
+				1FDFE7072DDE604700E9E9EB /* Sources */,
+				1FDFE7082DDE604700E9E9EB /* Frameworks */,
+				1FDFE7092DDE604700E9E9EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FDFE70D2DDE604700E9E9EB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1FDFE70E2DDE604700E9E9EB /* Kybera StudioUITests */,
+			);
+			name = "Kybera StudioUITests";
+			packageProductDependencies = (
+			);
+			productName = "Kybera StudioUITests";
+			productReference = 1FDFE70B2DDE604700E9E9EB /* Kybera StudioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FDFE6E12DDE604200E9E9EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					1FDFE6E82DDE604200E9E9EB = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					1FDFE7002DDE604600E9E9EB = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 1FDFE6E82DDE604200E9E9EB;
+					};
+					1FDFE70A2DDE604700E9E9EB = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 1FDFE6E82DDE604200E9E9EB;
+					};
+				};
+			};
+			buildConfigurationList = 1FDFE6E42DDE604200E9E9EB /* Build configuration list for PBXProject "Kybera Studio" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FDFE6E02DDE604200E9E9EB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1FDFE6EA2DDE604200E9E9EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FDFE6E82DDE604200E9E9EB /* Kybera Studio */,
+				1FDFE7002DDE604600E9E9EB /* Kybera StudioTests */,
+				1FDFE70A2DDE604700E9E9EB /* Kybera StudioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FDFE6E72DDE604200E9E9EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FDFE6FF2DDE604600E9E9EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FDFE7092DDE604700E9E9EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FDFE6E52DDE604200E9E9EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FDFE6FD2DDE604600E9E9EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FDFE7072DDE604700E9E9EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FDFE7032DDE604600E9E9EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FDFE6E82DDE604200E9E9EB /* Kybera Studio */;
+			targetProxy = 1FDFE7022DDE604600E9E9EB /* PBXContainerItemProxy */;
+		};
+		1FDFE70D2DDE604700E9E9EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FDFE6E82DDE604200E9E9EB /* Kybera Studio */;
+			targetProxy = 1FDFE70C2DDE604700E9E9EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FDFE7152DDE604700E9E9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Kybera Studio/Kybera_Studio.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QNY78K289H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kybera Studio/Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "name.progalgo.Kybera-Studio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1FDFE7162DDE604700E9E9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Kybera Studio/Kybera_Studio.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QNY78K289H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kybera Studio/Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "name.progalgo.Kybera-Studio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1FDFE7172DDE604700E9E9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = QNY78K289H;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FDFE7182DDE604700E9E9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = QNY78K289H;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1FDFE71A2DDE604700E9E9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QNY78K289H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "name.progalgo.Kybera-StudioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kybera Studio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kybera Studio";
+			};
+			name = Debug;
+		};
+		1FDFE71B2DDE604700E9E9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QNY78K289H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "name.progalgo.Kybera-StudioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kybera Studio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kybera Studio";
+			};
+			name = Release;
+		};
+		1FDFE71D2DDE604700E9E9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QNY78K289H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "name.progalgo.Kybera-StudioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Kybera Studio";
+			};
+			name = Debug;
+		};
+		1FDFE71E2DDE604700E9E9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QNY78K289H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "name.progalgo.Kybera-StudioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Kybera Studio";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FDFE6E42DDE604200E9E9EB /* Build configuration list for PBXProject "Kybera Studio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FDFE7172DDE604700E9E9EB /* Debug */,
+				1FDFE7182DDE604700E9E9EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FDFE7142DDE604700E9E9EB /* Build configuration list for PBXNativeTarget "Kybera Studio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FDFE7152DDE604700E9E9EB /* Debug */,
+				1FDFE7162DDE604700E9E9EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FDFE7192DDE604700E9E9EB /* Build configuration list for PBXNativeTarget "Kybera StudioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FDFE71A2DDE604700E9E9EB /* Debug */,
+				1FDFE71B2DDE604700E9E9EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FDFE71C2DDE604700E9E9EB /* Build configuration list for PBXNativeTarget "Kybera StudioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FDFE71D2DDE604700E9E9EB /* Debug */,
+				1FDFE71E2DDE604700E9E9EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FDFE6E12DDE604200E9E9EB /* Project object */;
+}
