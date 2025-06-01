@@ -10,7 +10,7 @@ import Cocoa
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-
+    var libraryController = LibraryController(windowNibName: "Library")
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
@@ -24,6 +24,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         return true
     }
 
-
+    @IBAction func openLibrary(_ sender: Any) {
+        libraryController.showWindow(nil)
+    }
+    
 }
 
