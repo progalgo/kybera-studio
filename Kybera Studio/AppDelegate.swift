@@ -10,7 +10,7 @@ import Cocoa
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-    var libraryController = LibraryController(windowNibName: "Library")
+    private var libraryController = LibraryController(windowNibName: "Library")
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
