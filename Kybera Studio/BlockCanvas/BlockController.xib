@@ -7,42 +7,48 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="BlockController" customModule="Kybera_Studio" customModuleProvider="target">
             <connections>
-                <outlet property="inputsStack" destination="oTH-za-lcs" id="ezl-xD-UGM"/>
-                <outlet property="outputsStack" destination="X0k-GP-N94" id="eSd-NV-zig"/>
+                <outlet property="inputsStack" destination="BdE-UK-6XZ" id="3ca-Wq-hxl"/>
+                <outlet property="outputsStack" destination="K1a-cp-wjH" id="t9K-TJ-pQf"/>
                 <outlet property="view" destination="Ech-U1-5IO" id="xxb-eh-cW6"/>
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <box borderType="line" title="Operation" id="Ech-U1-5IO" userLabel="Block">
-            <rect key="frame" x="0.0" y="0.0" width="419" height="332"/>
-            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+        <box horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" placeholderIntrinsicWidth="250" placeholderIntrinsicHeight="80" borderType="line" title="Operation" translatesAutoresizingMaskIntoConstraints="NO" id="Ech-U1-5IO" userLabel="Block">
+            <rect key="frame" x="0.0" y="0.0" width="292" height="183"/>
             <view key="contentView" id="YNi-4E-msG" userLabel="Body">
-                <rect key="frame" x="4" y="5" width="411" height="312"/>
+                <rect key="frame" x="10" y="11" width="272" height="151"/>
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 <subviews>
-                    <stackView orientation="vertical" alignment="leading" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oTH-za-lcs" userLabel="Inputs">
-                        <rect key="frame" x="20" y="20" width="185" height="272"/>
-                    </stackView>
-                    <stackView orientation="vertical" alignment="trailing" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" id="X0k-GP-N94" userLabel="Outputs">
-                        <rect key="frame" x="215" y="20" width="176" height="272"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" heightSizable="YES"/>
+                    <stackView distribution="fillProportionally" orientation="horizontal" alignment="firstBaseline" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" id="8UT-16-PTJ">
+                        <rect key="frame" x="0.0" y="0.0" width="272" height="151"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView orientation="vertical" alignment="leading" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" id="BdE-UK-6XZ">
+                                <rect key="frame" x="0.0" y="0.0" width="137" height="151"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </stackView>
+                            <stackView orientation="vertical" alignment="trailing" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" id="K1a-cp-wjH">
+                                <rect key="frame" x="145" y="0.0" width="127" height="151"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </stackView>
+                        </subviews>
+                        <visibilityPriorities>
+                            <integer value="1000"/>
+                            <integer value="1000"/>
+                        </visibilityPriorities>
+                        <customSpacing>
+                            <real value="3.4028234663852886e+38"/>
+                            <real value="3.4028234663852886e+38"/>
+                        </customSpacing>
                     </stackView>
                 </subviews>
-                <constraints>
-                    <constraint firstItem="X0k-GP-N94" firstAttribute="top" secondItem="YNi-4E-msG" secondAttribute="top" constant="20" symbolic="YES" id="KD0-nr-Z4p"/>
-                    <constraint firstItem="X0k-GP-N94" firstAttribute="leading" secondItem="oTH-za-lcs" secondAttribute="trailing" constant="10" id="Xi0-k3-0zu"/>
-                    <constraint firstAttribute="bottom" secondItem="X0k-GP-N94" secondAttribute="bottom" constant="20" symbolic="YES" id="a7y-zF-WV4"/>
-                    <constraint firstAttribute="bottom" secondItem="oTH-za-lcs" secondAttribute="bottom" constant="20" symbolic="YES" id="hQm-yZ-jVt"/>
-                    <constraint firstAttribute="trailing" secondItem="X0k-GP-N94" secondAttribute="trailing" constant="20" symbolic="YES" id="jkK-NR-s9H"/>
-                    <constraint firstItem="oTH-za-lcs" firstAttribute="top" secondItem="YNi-4E-msG" secondAttribute="top" constant="20" symbolic="YES" id="qvB-34-DLQ"/>
-                    <constraint firstItem="oTH-za-lcs" firstAttribute="leading" secondItem="YNi-4E-msG" secondAttribute="leading" constant="20" symbolic="YES" id="xFo-I6-6en"/>
-                </constraints>
             </view>
+            <size key="contentViewMargins" width="6" height="6"/>
             <connections>
                 <binding destination="-2" name="title" keyPath="title" id="Dgl-Z0-iec"/>
             </connections>
-            <point key="canvasLocation" x="220.5" y="390"/>
+            <point key="canvasLocation" x="-57" y="116.5"/>
         </box>
     </objects>
 </document>
