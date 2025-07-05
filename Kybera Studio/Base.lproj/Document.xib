@@ -14,27 +14,53 @@
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="xOd-HO-29H" userLabel="Window">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
-            <rect key="contentRect" x="133" y="235" width="1024" height="768"/>
+            <rect key="contentRect" x="133" y="235" width="623" height="497"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1050"/>
-            <value key="minSize" type="size" width="800" height="600"/>
-            <view key="contentView" id="gIp-Ho-8D9">
-                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <value key="minSize" type="size" width="500" height="300"/>
+            <view key="contentView" translatesAutoresizingMaskIntoConstraints="NO" id="gIp-Ho-8D9">
+                <rect key="frame" x="0.0" y="0.0" width="623" height="497"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nkJ-9e-mTE" userLabel="Canvas View">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                    <scrollView fixedFrame="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gUB-8I-ew6">
+                        <rect key="frame" x="0.0" y="0.0" width="623" height="497"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                    </customView>
+                        <clipView key="contentView" id="J2G-OO-wkH">
+                            <rect key="frame" x="1" y="1" width="621" height="495"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <view id="Mtw-ud-yJs" customClass="GriddedView" customModule="Kybera_Studio" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="669" height="572"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="gridColor">
+                                            <color key="value" name="windowBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cellSize">
+                                            <real key="value" value="20"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                            </subviews>
+                        </clipView>
+                        <scroller key="horizontalScroller" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="cgf-n4-d8h">
+                            <rect key="frame" x="1" y="480" width="621" height="16"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </scroller>
+                        <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="Fb6-pQ-tVD">
+                            <rect key="frame" x="606" y="1" width="16" height="495"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </scroller>
+                    </scrollView>
                 </subviews>
             </view>
             <connections>
                 <outlet property="delegate" destination="-2" id="0bl-1N-x8E"/>
             </connections>
-            <point key="canvasLocation" x="262" y="80"/>
+            <point key="canvasLocation" x="61.5" y="-55.5"/>
         </window>
         <viewController id="UNt-f2-nHh" customClass="BlockCanvasController" customModule="Kybera_Studio" customModuleProvider="target">
             <connections>
-                <outlet property="view" destination="nkJ-9e-mTE" id="U9d-cw-jK7"/>
+                <outlet property="view" destination="Mtw-ud-yJs" id="jfn-27-zvK"/>
             </connections>
         </viewController>
     </objects>

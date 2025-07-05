@@ -14,7 +14,7 @@ class BlockCanvasController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
-        addBlock(point: .init(x: 10, y: 10))
+        addBlock(point: .init(x: 10, y: 100))
     }
     
     func addBlock(frame: NSRect) {
